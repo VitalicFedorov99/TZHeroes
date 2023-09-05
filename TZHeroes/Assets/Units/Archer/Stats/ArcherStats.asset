@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488789c8e291e2d41838f6f431602e02, type: 3}
+  m_Name: ArcherStats
+  m_EditorClassIdentifier: 
+  Health: 10
+  Movement: 6
+  DamageMelee: {fileID: 11400000, guid: 77f277310b2bdeb44a93176920e52301, type: 2}
+  Initiative: 6
+  DamageRange: {fileID: 11400000, guid: a3e83283a109179419e754cfc558ac80, type: 2}
