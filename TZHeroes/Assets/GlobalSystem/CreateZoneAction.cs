@@ -10,7 +10,7 @@ public class CreateZoneAction : MonoBehaviour
 
     public void Debuger()
     {
-        GameGrid.OffColorize(); 
-        GameGrid.Colorize(chooseZoneAction.ZoneAction.Positions, chooseZoneAction.CurrentPosition);
+        //GameGrid.OffColorize(); 
+        //GameGrid.Colorize(chooseZoneAction.ZoneAction.Positions, chooseZoneAction.CurrentPosition);
     }
 }

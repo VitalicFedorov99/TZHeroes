@@ -19,10 +19,15 @@ public class GameGrid : MonoBehaviour
         _instance = this.gameObject;
 
     }
-    private void Start()
+
+    public static void GetHex(Vector2Int pos, out Hex hex) 
+    {
+        dictionaryHexs.TryGetValue(pos, out hex);
+    }
+
+    public void Setup() 
     {
         GridCreate(GetComponent<GridSettings>());
-        
     }
 
     public void GridCreate(GridSettings settings)

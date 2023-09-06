@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 243807868078036576}
   - component: {fileID: 3858781013542953465}
   - component: {fileID: 4901630787096792790}
+  - component: {fileID: 3902612143820478766}
   - component: {fileID: 5279225477963985058}
   m_Layer: 0
   m_Name: Hexagon Flat-Top
@@ -101,7 +102,23 @@ MonoBehaviour:
   _neighbourArray: []
   sprite: {fileID: 3858781013542953465}
   gameEvent: {fileID: 11400000, guid: 2a6b42fd69c2fe543b964454f38e5b21, type: 2}
+  eventCancelAttack: {fileID: 11400000, guid: 026c5b0bded8d3b42a484f185d74fba0, type: 2}
   chooseZone: {fileID: 11400000, guid: d2a419c71d7a46f48a0df4acd44a71a1, type: 2}
+  chooseHex: {fileID: 11400000, guid: c9152c96544f6714cbfb0764833e6718, type: 2}
+  hexWalkable: {fileID: 3902612143820478766}
+--- !u!114 &3902612143820478766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063937690127759093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ba730df9cf7cd4b9f1e8dedb6cf994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isWalkable: 1
 --- !u!58 &5279225477963985058
 CircleCollider2D:
   m_ObjectHideFlags: 0

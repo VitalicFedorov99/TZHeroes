@@ -63,6 +63,7 @@ public class GeneratorGrid : MonoBehaviour
         id = 0;
         int tempx;
         int tempId = 0;
+        int x1 = _gridSize.x;
         float flagNumber = listTemp.Count / (_gridSize.x * 2);
         if(listTemp.Count % (_gridSize.x * 2) != 0) 
         {
@@ -80,7 +81,7 @@ public class GeneratorGrid : MonoBehaviour
             if (!flag)
             {
                 if (id != 0)
-                    tempId = tempId - 6;
+                    tempId = tempId - (x1-1);
                 if (tempId >= listTemp.Count)
                 {
                     flag = true;
@@ -96,7 +97,7 @@ public class GeneratorGrid : MonoBehaviour
             else
             {
                 
-                tempId = tempId + 7;
+                tempId = tempId + x1;
                 if (tempId >= listTemp.Count) 
                 {
                     flag = false;
